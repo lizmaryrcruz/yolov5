@@ -1,0 +1,13 @@
+train: /home/lizmary/Documentos/datasets/stairs/train/images
+val: /home/lizmary/Documentos/datasets/stairs/valid/images
+test: /home/lizmary/Documentos/datasets/stairs/test/images
+
+nc: 5
+names: ['gorra', 'head', 'head-down', 'head-up', 'telefono']
+
+roboflow:
+  workspace: project
+  project: stairs-udzfn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/stairs-udzfn/dataset/1
